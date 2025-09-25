@@ -13,7 +13,7 @@ def setup(request):
         options = webdriver.ChromeOptions()
         options.add_argument("--start-maximized")
         # Auto-manage correct ChromeDriver version
-        service = ChromeService(ChromeDriverManager().install())
+        service = ChromeService(ChromeDriverManager(driver_version="latest").install())
         driver = webdriver.Chrome(service=service, options=options)
 
     url = "https://www.automationexercise.com/"
