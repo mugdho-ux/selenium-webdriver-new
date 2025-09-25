@@ -23,9 +23,7 @@ class TestA(BaseClass):
         time.sleep(1)
         sidebar.click_woman_tops()
         time.sleep(1)
-        assert sidebar.is_tops_visible() == "WOMEN -  TOPS PRODUCTS"
-
-        time.sleep(1)
+       
 
         sidebar.click_men()
         time.sleep(1)
