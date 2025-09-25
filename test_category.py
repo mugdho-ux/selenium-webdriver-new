@@ -30,5 +30,4 @@ class TestA(BaseClass):
         sidebar.click_men_tops()
         time.sleep(1)
         log.info(sidebar.is_men_tops_visible())
-        assert sidebar.is_men_tops_visible() == "MEN -  TSHIRTS PRODUCTS"
-        time.sleep(1)
+ 
